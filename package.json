@@ -1,0 +1,28 @@
+{
+  "name": "astro-styleguide",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev --root www",
+    "styleguide:build": "celestial",
+    "styleguide:dev": "celestial --dev",
+    "start": "astro dev --root www",
+    "build": "astro check --root www && astro build --root www",
+    "preview": "astro preview --root www",
+    "astro": "astro --root www"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.6",
+    "astro": "^4.4.6",
+    "@hv/celestial": "^0.0.24",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.11.24",
+    "chokidar": "^3.6.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10",
+    "tsx": "^4.7.1"
+  }
+}

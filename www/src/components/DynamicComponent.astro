@@ -1,0 +1,12 @@
+---
+interface Props {
+  name: string;
+}
+
+const { name } = Astro.props;
+
+const module = await import(`./dynamic/${name}/${name}.astro`);
+const Component = module.default;
+---
+
+<Component />

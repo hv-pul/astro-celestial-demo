@@ -1,0 +1,5 @@
+{
+    "srcDir": "./www",
+    "outDir": "dist-styleguide",
+    "port": 8000
+}
